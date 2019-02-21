@@ -14,12 +14,12 @@ import javax.swing.JPanel;
 
 public class Main {
 	public static void main(String[] args) {
-		GraphicWindow screen = new GraphicWindow("Ecosysteme", 70, 600, 600);
+		GraphicWindow screen = new GraphicWindow("Ecosysteme", 70, 960, 640);
 		while(true){
 		
 			screen.step();
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(200);
 			} 
 			catch (InterruptedException e) {
 			}
