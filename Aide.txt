@@ -1,0 +1,36 @@
+Aide.txt
+
+Pour lancer le programme :
+- se placer dans le dossier « Projet »
+
+cd Projet
+
+- taper :
+
+javac *.java
+java Main
+
+
+Il est possible de modifier des paramètres de l’écosystème dans le fichier Constantes.java
+
+Interactions clavier / Souris :
+
+A : zoom ++
+Z : zoom –-
+E : affiche/masque la vision et le chemin des agents (interrupteur on/off)
+R : affiche/masque la barre de vie et l’âge des agents (interrupteur on/off)
+T : affiche/masque le Mode et l’orientation des agents (interrupteur on/off)
+
+Q : passe à la saison été
+S : passe à la saison automne
+D : passe à la saison hiver
+F : passe à la saison printemps
+
+← permet de se déplacer sur la carte vers la gauche
+→ permet de se déplacer sur la carte vers la droite
+↑ permet de se déplacer sur la carte vers le haut
+↓ permet de se déplacer sur la carte vers le bas
+
+click gauche : zoom ++ centré sur un point de la carte
+click droit : zoom –- centré sur un point de la carte
+roulette : zoom/ dézoom centré sur un point de la carte
